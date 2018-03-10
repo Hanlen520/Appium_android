@@ -1,0 +1,233 @@
+#----------------------------------------
+03-10 17:30:08.112 I/Launcher.PerformanceHelper( 2485): get qcom BoostFramework performance method failed! :java.lang.ClassNotFoundException: android.util.BoostFramework
+#----------------------------------------
+03-10 17:30:08.142 I/Launcher.PerformanceHelper( 2485): get qcom BoostFramework performance method failed! :java.lang.ClassNotFoundException: android.util.BoostFramework
+03-10 17:30:08.162 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.172 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): Leak found
+#----------------------------------------
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): java.lang.IllegalStateException: AndroidHttpClient created and never closed
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.net.http.AndroidHttpClient.<init>(AndroidHttpClient.java:183)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.net.http.AndroidHttpClient.newInstance(AndroidHttpClient.java:163)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at com.baidu.input_bbk.c.a.run(Unknown Source)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.os.Handler.handleCallback(Handler.java:739)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.os.Looper.loop(Looper.java:135)
+03-10 17:30:08.172 E/AndroidHttpClient( 2485): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+03-10 17:30:08.182 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.182 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.182 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.182 D/CandidateListAdapter( 2485): getCount==4
+03-10 17:30:08.182 D/CandidateListAdapter( 2485): getCount==4
+03-10 17:30:08.192 D/yuan    ( 2485): onVisibilityChanged----android.widget.GridView{1ed37a1 V.ED..C. ......I. 0,0-0,0 #7f0e0082 app:id/switch_view_grid}
+03-10 17:30:08.202 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.212 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.212 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.212 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.212 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.212 D/CandidateListAdapter( 2485): getCount==4
+03-10 17:30:08.212 D/CandidateListAdapter( 2485): getCount==4
+03-10 17:30:08.222 D/yuan    ( 2485): onVisibilityChanged----android.widget.GridView{2e13045f V.ED..C. ......I. 0,0-0,0 #7f0e0082 app:id/switch_view_grid}
+03-10 17:30:08.222 W/ResourceType( 2485): No package identifier when getting name for resource number 0x00000000
+03-10 17:30:08.232 D/horizontalscroll( 2485): vivo style!!!
+03-10 17:30:08.232 I/PinyinIME( 2485): onStartInputView : false
+#----------------------------------------
+03-10 17:30:27.722 W/System.err( 8602): java.net.SocketException: Socket is closed
+03-10 17:30:27.722 W/System.err( 8602): 	at java.net.Socket.checkOpenAndCreate(Socket.java:665)
+03-10 17:30:27.722 W/System.err( 8602): 	at java.net.Socket.getSoTimeout(Socket.java:457)
+03-10 17:30:27.722 W/System.err( 8602): 	at com.tencent.qphone.base.util.MsfSocketInputBuffer.isDataAvailable(MsfSocketInputBuffer.java:71)
+03-10 17:30:27.722 W/System.err( 8602): 	at com.tencent.mobileqq.msf.core.net.l$b.run(SocketEngine.java:491)
+03-10 17:30:27.722 I/SocketReaderNew( 8602): SocketReader(189) wait
+#----------------------------------------
+03-10 17:30:32.872 E/DatabaseUtils( 3078): java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.throwIfClosedLocked(SQLiteConnectionPool.java:962)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.waitForConnection(SQLiteConnectionPool.java:599)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.acquireConnection(SQLiteConnectionPool.java:348)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteSession.acquireConnection(SQLiteSession.java:894)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:834)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:144)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:133)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java:145)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:122)
+03-10 17:30:32.872 E/DatabaseUtils( 3078): 	at android.os.Binder.execTransact(Binder.java:446)
+#----------------------------------------
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+#----------------------------------------
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.os.Parcel.readException(Parcel.java:1582)
+#----------------------------------------
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+#----------------------------------------
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:421)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.content.ContentResolver.query(ContentResolver.java:488)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.content.ContentResolver.query(ContentResolver.java:428)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at com.vivo.analysis.VivoCollectData.getControlInfo(Unknown Source)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at com.baidu.input_bbk.a.b.run(Unknown Source)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.os.Handler.handleCallback(Handler.java:739)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.os.Looper.loop(Looper.java:135)
+03-10 17:30:32.872 I/DH.VivoCollectData( 2485): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+#----------------------------------------
+03-10 17:30:50.802 W/InputMethodManagerService( 1403): Got RemoteException sending setActive(false) notification to pid 16850 uid 10122
+#----------------------------------------
+03-10 17:30:50.812 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_cloudy.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:50.812 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_degree.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:50.812 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_minus.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:51.552 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_cloudy.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:51.552 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_degree.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:51.562 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.vivo.weather/res/drawable-sw360dp-xxxhdpi/dynamic_weather_minus.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:30:57.722 W/System.err( 8602): java.net.SocketException: Socket is closed
+03-10 17:30:57.722 W/System.err( 8602): 	at java.net.Socket.checkOpenAndCreate(Socket.java:665)
+03-10 17:30:57.722 W/System.err( 8602): 	at java.net.Socket.getSoTimeout(Socket.java:457)
+03-10 17:30:57.722 W/System.err( 8602): 	at com.tencent.qphone.base.util.MsfSocketInputBuffer.isDataAvailable(MsfSocketInputBuffer.java:71)
+03-10 17:30:57.722 W/System.err( 8602): 	at com.tencent.mobileqq.msf.core.net.l$b.run(SocketEngine.java:491)
+03-10 17:30:57.722 I/SocketReaderNew( 8602): SocketReader(189) wait
+#----------------------------------------
+03-10 17:31:00.002 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_hour.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:31:00.002 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_minute.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:31:00.012 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_dial.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:31:00.012 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_dial_center.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:31:06.622 W/System.err( 2521): android.content.pm.PackageManager$NameNotFoundException: io.appium.android.ime
+#----------------------------------------
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): java.lang.IllegalArgumentException: Unknown id: com.baidu.input_bbk.service/.PinyinIME
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethodEnabledLocked(InputMethodManagerService.java:3475)
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at com.android.server.VivoInputMethodManagerService.setInputMethodEnabledLocked(VivoInputMethodManagerService.java:173)
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethodEnabled(InputMethodManagerService.java:3459)
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at com.android.internal.view.IInputMethodManager$Stub.onTransact(IInputMethodManager.java:425)
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.onTransact(InputMethodManagerService.java:1000)
+03-10 17:31:21.972 F/InputMethodManagerService( 1403): 	at android.os.Binder.execTransact(Binder.java:446)
+#----------------------------------------
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): java.lang.IllegalArgumentException: Unknown id: io.appium.android.ime/.UnicodeIME
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethodLocked(InputMethodManagerService.java:1980)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.VivoInputMethodManagerService.setInputMethodLocked(VivoInputMethodManagerService.java:178)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethodWithSubtypeIdLocked(InputMethodManagerService.java:2756)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethodWithSubtypeId(InputMethodManagerService.java:2735)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.setInputMethod(InputMethodManagerService.java:2492)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.internal.view.IInputMethodManager$Stub.onTransact(IInputMethodManager.java:259)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at com.android.server.InputMethodManagerService.onTransact(InputMethodManagerService.java:1000)
+03-10 17:31:22.742 F/InputMethodManagerService( 1403): 	at android.os.Binder.execTransact(Binder.java:446)
+#----------------------------------------
+03-10 17:31:24.342 W/System.err( 2521): android.content.pm.PackageManager$NameNotFoundException: io.appium.settings
+03-10 17:31:24.342 W/System.err( 2521): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.utils.h.ac(ScanUtil.java:173)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.utils.h.c(ScanUtil.java:415)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.tmssdk.a.a.i.fP(ScanResultDao.java:286)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.virusengine.manager.ae.e(VirusEngineManager.java:289)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.virusengine.manager.ae.b(VirusEngineManager.java:247)
+03-10 17:31:24.342 W/System.err( 2521): 	at com.iqoo.secure.service.cq.handleMessage(VirusScanService.java:246)
+03-10 17:31:24.342 W/System.err( 2521): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+03-10 17:31:24.342 W/System.err( 2521): 	at android.os.Looper.loop(Looper.java:135)
+03-10 17:31:24.342 W/System.err( 2521): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+03-10 17:31:24.342 D/ScanUtil( 2521):  package not exists !!!
+03-10 17:31:24.342 D/SecureProvider( 2521): caller uid: 10055 context: com.iqoo.secure.AppFeature@11e6b93e
+03-10 17:31:24.342 D/SecureProvider( 2521): isValidCaller----pkgName: com.iqoo.secure valid: true
+03-10 17:31:24.362 D/QScannerManagerV2( 2521): Impl-onCreate
+03-10 17:31:24.362 D/QScannerManagerV2( 2521): CHS--[/data/user/0/com.iqoo.secure/files/70001.amf]
+03-10 17:31:24.362 V/QScannerManagerV2( 2521): initScanner
+03-10 17:31:24.362 D/QScannerManagerV2( 2521): initScanner-mCacheManager:[null]mCertChecker[nullmAmScanner[null]
+03-10 17:31:24.362 D/QScannerManagerV2-QScanCacheManager( 2521): QScanCacheManager::nLang:[1]amfFilePath[/data/user/0/com.iqoo.secure/files/70001.amf]
+#----------------------------------------
+03-10 17:31:27.722 W/System.err( 8602): java.net.SocketException: Socket is closed
+03-10 17:31:27.722 W/System.err( 8602): 	at java.net.Socket.checkOpenAndCreate(Socket.java:665)
+03-10 17:31:27.722 W/System.err( 8602): 	at java.net.Socket.getSoTimeout(Socket.java:457)
+03-10 17:31:27.722 W/System.err( 8602): 	at com.tencent.qphone.base.util.MsfSocketInputBuffer.isDataAvailable(MsfSocketInputBuffer.java:71)
+03-10 17:31:27.722 W/System.err( 8602): 	at com.tencent.mobileqq.msf.core.net.l$b.run(SocketEngine.java:491)
+03-10 17:31:27.722 I/SocketReaderNew( 8602): SocketReader(189) wait
+#----------------------------------------
+03-10 17:31:41.772 W/System.err( 2521): android.content.pm.PackageManager$NameNotFoundException: io.appium.unlock
+03-10 17:31:41.772 W/System.err( 2521): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.utils.h.ac(ScanUtil.java:173)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.utils.h.c(ScanUtil.java:415)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.tmssdk.a.a.i.fP(ScanResultDao.java:286)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.virusengine.manager.ae.e(VirusEngineManager.java:289)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.virusengine.manager.ae.b(VirusEngineManager.java:247)
+03-10 17:31:41.772 W/System.err( 2521): 	at com.iqoo.secure.service.cq.handleMessage(VirusScanService.java:246)
+03-10 17:31:41.772 W/System.err( 2521): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+03-10 17:31:41.772 W/System.err( 2521): 	at android.os.Looper.loop(Looper.java:135)
+03-10 17:31:41.772 W/System.err( 2521): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+03-10 17:31:41.772 D/ScanUtil( 2521):  package not exists !!!
+03-10 17:31:41.772 D/SecureProvider( 2521): caller uid: 10055 context: com.iqoo.secure.AppFeature@11e6b93e
+03-10 17:31:41.772 D/SecureProvider( 2521): isValidCaller----pkgName: com.iqoo.secure valid: true
+03-10 17:31:41.782 D/QScannerManagerV2( 2521): Impl-onCreate
+03-10 17:31:41.792 D/QScannerManagerV2( 2521): CHS--[/data/user/0/com.iqoo.secure/files/70001.amf]
+03-10 17:31:41.792 V/QScannerManagerV2( 2521): initScanner
+03-10 17:31:41.792 D/QScannerManagerV2( 2521): initScanner-mCacheManager:[null]mCertChecker[nullmAmScanner[null]
+03-10 17:31:41.792 D/QScannerManagerV2-QScanCacheManager( 2521): QScanCacheManager::nLang:[1]amfFilePath[/data/user/0/com.iqoo.secure/files/70001.amf]
+#----------------------------------------
+03-10 17:31:57.722 W/System.err( 8602): java.net.SocketException: Socket is closed
+03-10 17:31:57.732 W/System.err( 8602): 	at java.net.Socket.checkOpenAndCreate(Socket.java:665)
+03-10 17:31:57.732 W/System.err( 8602): 	at java.net.Socket.getSoTimeout(Socket.java:457)
+03-10 17:31:57.732 W/System.err( 8602): 	at com.tencent.qphone.base.util.MsfSocketInputBuffer.isDataAvailable(MsfSocketInputBuffer.java:71)
+03-10 17:31:57.732 W/System.err( 8602): 	at com.tencent.mobileqq.msf.core.net.l$b.run(SocketEngine.java:491)
+03-10 17:31:57.732 I/SocketReaderNew( 8602): SocketReader(189) wait
+#----------------------------------------
+03-10 17:31:59.552 I/UiWatchers(17551): Registed GUI Exception watchers
+#----------------------------------------
+03-10 17:32:00.022 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_hour.png: open failed: ENOENT (No such file or directory)
+#----------------------------------------
+03-10 17:32:00.022 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_minute.png: open failed: ENOENT (No such file or directory)
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000003
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000103
+#----------------------------------------
+03-10 17:32:00.032 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_dial.png: open failed: ENOENT (No such file or directory)
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000203
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000303
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000004
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000104
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000204
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000304
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000005
+#----------------------------------------
+03-10 17:32:00.032 E/BitmapFactory( 2800): Unable to decode stream: java.io.FileNotFoundException: /oem/etc/theme/icons/dynamic_icon/com.android.BBKClock/res/drawable-sw360dp-xxxhdpi/clock_dial_center.png: open failed: ENOENT (No such file or directory)
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000105
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000205
+03-10 17:32:00.032 W/ResourceType( 2800): No known package when getting name for resource number 0x9c000305
+#----------------------------------------
+03-10 17:32:27.732 W/System.err( 8602): java.net.SocketException: Socket is closed
+03-10 17:32:27.732 W/System.err( 8602): 	at java.net.Socket.checkOpenAndCreate(Socket.java:665)
+03-10 17:32:27.732 W/System.err( 8602): 	at java.net.Socket.getSoTimeout(Socket.java:457)
+03-10 17:32:27.732 W/System.err( 8602): 	at com.tencent.qphone.base.util.MsfSocketInputBuffer.isDataAvailable(MsfSocketInputBuffer.java:71)
+03-10 17:32:27.732 W/System.err( 8602): 	at com.tencent.mobileqq.msf.core.net.l$b.run(SocketEngine.java:491)
+03-10 17:32:27.732 I/SocketReaderNew( 8602): SocketReader(189) wait
+#----------------------------------------
+03-10 17:32:32.112 E/DatabaseUtils( 3078): java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.throwIfClosedLocked(SQLiteConnectionPool.java:962)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.waitForConnection(SQLiteConnectionPool.java:599)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteConnectionPool.acquireConnection(SQLiteConnectionPool.java:348)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteSession.acquireConnection(SQLiteSession.java:894)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:834)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:144)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:133)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java:145)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:122)
+03-10 17:32:32.112 E/DatabaseUtils( 3078): 	at android.os.Binder.execTransact(Binder.java:446)
+#----------------------------------------
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+#----------------------------------------
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.os.Parcel.readException(Parcel.java:1582)
+#----------------------------------------
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+#----------------------------------------
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:421)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.content.ContentResolver.query(ContentResolver.java:488)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.content.ContentResolver.query(ContentResolver.java:428)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at com.vivo.analysis.VivoCollectData.getControlInfo(Unknown Source)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at com.baidu.input_bbk.a.b.run(Unknown Source)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.os.Handler.handleCallback(Handler.java:739)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.os.Looper.loop(Looper.java:135)
+03-10 17:32:32.112 I/DH.VivoCollectData( 2485): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+03-10 17:32:32.112 I/DataCollect( 2485): update data collect enable : false ; true
