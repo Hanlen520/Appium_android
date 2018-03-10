@@ -5,7 +5,7 @@ Auto_Analysis是基于appium编写的自动化测试工具。使用方法简单�
 
 ### 环境要求
 
-* macOS，linux，windows
+* windows
 * appium 1.5.0+
 * python 2.7 
 
@@ -27,12 +27,6 @@ Auto_Analysis是基于appium编写的自动化测试工具。使用方法简单�
 * python setup.py install
 * python demo_run.py
 * result内查看测试报告
-
-### 执行效果
-![12](http://7xwbkf.com1.z0.glb.clouddn.com/2016-11-11%2017.22.53.gif)
-
-### 报告样式 
-![20161123810772016-11-23pm.png](http://7xwbkf.com1.z0.glb.clouddn.com/20161123810772016-11-23pm.png)
 
 
 代码解读：
