@@ -1,4 +1,0 @@
-pyyaml
-matplotlib
-selenium
-termcolor
