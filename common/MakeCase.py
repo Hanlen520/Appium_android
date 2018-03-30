@@ -3,21 +3,26 @@
 import time
 import unittest
 from appium import webdriver
-
+from common import config
+from common import AppiumApi
 
 class TestYY(unittest.TestCase):
     def setUp(self):
+
+       
+        time.sleep(6)
         desired_caps = {}
-        desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '5.1.1'
-        desired_caps['deviceName'] = '2d66b459'
-        # desired_caps['app'] = PATH('yymobile_client-7.5.2-SNAPSHOT-58674-official')
-        desired_caps['appPackage'] = 'com.duowan.mobile'
-        desired_caps['appActivity'] = 'com.yy.mobile.ui.home.MainActivity'
+        desired_caps['platformName'] = config.platformName
+        desired_caps['platformVersion'] = config.platformVersion
+        desired_caps['deviceName'] = config.deviceName
+        # desired_caps['app'] = app
         # 如果设置的是app包的路径，则不需要配appPackage和appActivity
+        desired_caps['appPackage'] = config.appPackage
+        desired_caps['appActivity'] = config.appActivity
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         time.sleep(6)
 
+        # AppiumApi.install_app(self.driver, config.app)
 
     
     def test_login(self):        

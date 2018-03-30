@@ -1,7 +1,7 @@
 #coding=utf-8
 
 from appium import webdriver
-
+import time
 
 
 
@@ -46,3 +46,16 @@ def swipRight(driver, t=500, n=1):
     x2 = l['width'] * 0.75
     for i in range(n):
         driver.swipe(x1, y1, x2, y1, t)
+
+
+def install_app(driver, apk):
+    wallpaper = driver.is_app_installed("com.duowan.mobile")
+    if wallpaper:
+        driver.remove_app("com.duowan.mobile")
+        time.sleep(30)
+        driver.install_app(apk)
+        time.sleep(60)
+
+    else:
+        driver.install_app(apk)
+        time.sleep(60)

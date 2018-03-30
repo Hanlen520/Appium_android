@@ -9,9 +9,7 @@ import time
 import HTMLTestRunnerCN
 
 
-PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__), p)
-)
+
 
 
 
@@ -20,6 +18,7 @@ if __name__ == '__main__':
     
     # os.system('StartAppium.bat') #启动appium服务
     time.sleep(3)
+    
     suite = unittest.TestSuite()
     suite.addTest(TestYY('test_login'))
     filename = 'F:\\app.html'
